@@ -1,0 +1,85 @@
+body,html{
+	height: 100%;
+	overflow: hidden;
+}
+
+/* 主体部分  banner图 */
+div.header{
+	width: 100%;
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index: 999;
+}
+.nav{
+	background-color:#000;
+	opacity:0.3;
+	_filter:alpha(opacity=30);
+}
+
+/* 房多多海面亲子游 */
+.intorcont{
+	width: 1200px;
+	height:200px;
+	background-color: #e9fcff; 
+	overflow: hidden;
+	position: relative;
+}
+.intorcont  h3{
+	font-size:2.4em;
+	line-height: 200%;
+	padding-left:50px;
+}
+.intorcont p{
+	width:80%;
+	text-align: left;
+	line-height:200%;
+	padding-top:15px;
+	padding-left: 50px;
+	font-size: 1.2em;
+}
+.intorcont span{
+	font-size:1.2em;
+	line-height: 140%;
+}
+.zoom{
+	display: block;
+	width: 128px;
+	height: 124px;
+	position: absolute;
+	right:10px;
+	bottom: 3%;
+	background:url(../images/wordbanner/zoom1.png) no-repeat center center;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.container .page{
+	height: 100%;
+}
+.page img{
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+/* .container .page0{
+	background-color: pink;
+}
+.container .page1{
+	background-color: blue;
+}
+.container .page2{
+	background-color: greenyellow;
+}
+.container .page3{
+	background-color: green;
+}
+.container .page4{
+	background-color: yellow;
+} */

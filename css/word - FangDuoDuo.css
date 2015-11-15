@@ -1,0 +1,215 @@
+/* 主体部分  banner图 */
+.main{
+	width:100%;
+	font-size: 0;
+	/* height: 600px; */
+	overflow: hidden;	
+	position: relative;
+	max-height: 600px;
+}
+.main img{
+	width: 100%;
+	display: block;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-0-background-size: cover;
+	background-size: cover;
+}
+/* 房多多海面亲子游 */
+.intorcont{
+	height:200px;
+	background-color: #e9fcff; 
+	position: relative;
+}
+.intorcont  h3{
+	font-size:2.4em;
+	line-height: 200%;
+	padding-left:80px;
+	box-sizing:border-box;
+}
+.intorcont p{
+	width: 80%;
+	text-align: left;
+	text-indent:2em;
+	line-height:200%;
+	padding-top:15px;
+	padding-left: 50px;
+}
+.intorcont span{
+	font-size:1.2em;
+	line-height: 140%;
+}
+.zoom{
+	display: block;
+	width: 128px;
+	height: 124px;
+	position: absolute;
+	right:10px;
+	bottom: 3%;
+	background:url(../images/wordbanner/zoom1.png) no-repeat center center;
+}
+.picshow{
+	position: relative;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.h3title{
+	font-size: 24px;
+	color:#4f4f4f;
+	padding-top: 57px;
+	text-align: center;
+}
+.pcont{
+	font-size: 16px;
+	color:#4f4f4f;
+	padding-bottom: 57px;
+	text-align: center;
+}
+.picshow_tu  li{
+	display: none;
+}
+.picshow_tu  li.curent{
+	display: block;
+}
+.showpichot{
+	overflow: hidden;
+	position: absolute;
+	top:95%;
+	left:75%;
+	z-index: 9999;
+}
+.showpichot li{
+	width: 15px;
+	height: 15px;
+	background:rgba(255,255,255,0.5);
+	float:left;
+	margin-right: 15px;
+	border-radius: 15px;
+}
+.showpichot li.hot{
+	background:rgba(255,255,255,1);
+}
+
+/* 易拉宝展示 */
+.RollUpBanner{
+	/* height:795px; */
+	overflow: hidden;
+	background-color:#eddbd5;
+	position:relative;
+	margin-top: 30px;
+	padding-top:30px;
+}
+.RollUpBanner .conterdiv{
+	position: relative;
+	/* height:730px; */
+	overflow: hidden;
+	padding-bottom: 40px;
+
+}
+.rub{
+	width: 9999px;
+	position: absolute;
+	top:160px;
+	left:0px;
+}
+.rub li{
+	float:left;
+	margin-right: 15px;
+}
+.rub li img{
+	width:250px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* 签名墙 */
+
+.sign{
+	text-align:center;
+}
+.signtitle{
+	padding-top: 10px;
+}
+/* 工作证 */
+.wordpamit{
+	padding-top: 10px;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+.wordtitle{
+	padding: 10px;
+}
+/* 宣传页 */
+.Leaflets{
+	width: 1200px;
+	text-align: center;
+	position: relative;
+	margin:0 auto;
+}
+.face2{
+	display: none;
+}
+.leafbtn{
+	width:120px;
+	height:40px;
+	background-color:rgba(234,234,234,1);
+	position: absolute;
+	top:80%;
+	left:85%;
+	border-radius:10px;
+	background: #e83d09;
+	background:-webkit-linear-gradient(top,#ea3b08,#e9410a);
+	box-shadow: 2px 2px 8px #000;
+	color:white;
+	text-align:center;
+	line-height: 40px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+.btn_left{
+	top:73%;
+}
+.btn_right{
+	top:80%;
+}
+/* 邀请函 */
+.invitation{
+	background-color:#F2F2F2;
+	overflow: hidden;
+}
+
+
+/* 结束  */
+.end{
+	width: 220px;
+	height: 80px;
+	text-align: center;
+	font-size:1.6em;
+	margin:0 auto;
+	padding-top: 70px;
+}
+
+.end p{
+	float:left;
+	color:#4f4f4f;
+	padding: 0 15px;
+}
+.endliner{
+	display: inline-block;
+	float:left;
+	width:80px;
+	height: 2px;
+	background-color: #ccc;
+	position: relative;
+	bottom:-8px;
+}
+/* 底部 */
+div.footer{
+	background-color: #1387b8;
+	margin-top: 20px;
+	padding-top: 20px;
+	height: 130px;
+}

@@ -1,0 +1,106 @@
+/* 公共类 */
+.conterdiv_all{
+	/*width: 1200px;*/
+	/*margin:0 auto;*/
+}
+.conterdiv {
+	width: 1200px;
+	margin:0 auto;
+}
+.nomargin{
+	margin-right: 0;
+}
+body,html{
+	font-size:12px;
+	-webkit-text-size-adjust:none;
+	color:#363636;
+}
+.mywords_h3{
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	padding-top: 90px;
+	color:#727272;
+}
+.myword_p{
+	font-size:18px;
+	line-height:24px;
+	text-align: center;
+	color:#A7A7A7;
+	padding-bottom: 100px;
+}
+
+/* 头部导航*/
+.nav{
+	height: 80px;
+	background-color: #76ae05;
+}
+.logo{
+	width: 224px;
+	height:60px;
+}
+.navul{
+	width: 804px;
+	padding-top:14px;
+}
+.navul li{
+	float: left;
+	/* margin-right: 164px; */
+	position: relative;
+	width:25%;
+	text-align: center;
+	height:66px;
+}
+.navul li a{
+	display: inline-block;
+	color:white;
+	text-align: center;
+}
+.navul li a h3{
+	font-size: 18px;
+}
+.navul li a span{
+	line-height:200%;
+}
+.undeline{
+	display: inline-block;
+	width: 100%;
+	height: 3px;
+	background-color: #FFDE00;
+	position: relative;
+	top:4px;
+}
+.navul li a:hover{
+	color:#FFDE00 !important;
+}
+
+.navbar-list{
+	position: absolute;
+	top:65px;
+	left:0;
+	width:100%;
+	overflow: hidden;
+	z-index: 100;
+	display: none;
+}
+.group{
+	display: block;
+	width:100%;
+	text-align: center;
+	color:#fff;
+	font-size: 14px;
+	line-height:40px;
+	background-color: rgba(0,0,0,0.3);
+	_filter:opacity(30);
+}
+.group:hover{opacity: 0.7;
+	_filter:opacity(70);}
+
+
+/* 底部 */
+.footer{
+	height: 130px;
+	text-align: center;
+	background-color: #fff;
+	padding-top: 20px;
+}

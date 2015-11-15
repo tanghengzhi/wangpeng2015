@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="keywords" content="王鹏个人网站 " />
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui" name="viewport" />
+	<title>我的作品-banner</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/globle.css" />
+	<link rel="stylesheet" href="css/banner.css" />
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="js/globle.js"></script>
+</head>
+<body>
+	<!-- 头部导航 -->
+	<div class="header">
+		<div class="nav">
+			<div class="conterdiv">
+				<h1 class="logo fl">
+					<img src="images/logo.png" alt="专注高端UI设计" />
+				</h1>
+				<ul class="navul fr">
+					<li><a href="#">
+						<h3>网站首页</h3>
+						<span>Home</span>
+					</a> <span class=""></span></li>
+					<li>
+						<a href="profile.html">
+							<h3>个人简介</h3>
+							<span>Profile</span>
+						</a>
+						<span class=""></span>
+						<div class="navbar-list">
+								<a class="group" href="">11152</a>
+								<a class="group" href="">11152</a>
+								<a class="group" href="">11152</a>
+						</div>
+					</li>
+					<li>
+						<a href="myWord.html">
+							<h3>我的作品</h3>
+							<span>My work</span>
+						</a>
+						<span class="nomargin"></span>
+						<div class="navbar-list">
+								<a class="group" href="">11152</a>
+								<a class="group" href="">11152</a>
+								<a class="group" href="">11152</a>
+								<a class="group" href="">11152</a>
+								<a class="group" href="">11152</a>
+						</div>
+					</li>
+					<li class="nomargin"><a href="#">
+						<h3>联系我们</h3>
+						<span>Contact us</span>
+					</a><span class=""></span></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+	<!-- 房多多海面亲子游 -->
+	<!-- <div class="parent_child conterdiv">
+		<div class="intorcont ">
+			<h3>上海猎鹰</h3>
+			<p>上海猎鹰网络有限公司，成立于2014年，总部位于上海，在北京福州均设有研发机构，是一家致力于手机游戏的研发、运营的游戏开发公司。项目的每个阶段有相应的设计评审、代码评审帮助员工提高设计水平.</p>
+			<p>将公司做的几款APP在公司前台旁的电视宣传下，要求大气简单明了。</p>
+			<i class="zoom"></i>
+		</div>
+	</div> -->
+	<div class="container">
+		<div class="page page0 cur"><img src="images/pingmian/banner1.jpg" alt="" /></div>
+		<div class="page page1"><img src="images/pingmian/banner2.jpg" alt="" /></div>
+		<div class="page page2"><img src="images/pingmian/banner3.jpg" alt="" /></div>
+		<div class="page page3"><img src="images/pingmian/banner4.jpg" alt="" /></div>
+		<div class="page page4"><img src="images/pingmian/banner5.jpg" alt="" /></div>
+		<div class="page page5"><img src="images/pingmian/banner6.jpg" alt="" /></div>
+		<div class="page page6"><img src="images/pingmian/banner7.jpg" alt="" /></div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(
+			function() {
+				var nowpage = 0;
+				var jiapage = 0;
+				$(document).mousewheel(
+					function(e,delta){
+						jiapage = jiapage - delta;
+						nowpage = parseInt(jiapage / 2);
+						//验收：
+						if(jiapage > 12 || nowpage > 6){
+							jiapage = 12;
+							nowpage = 6;
+						}
+						if(jiapage < 0 || nowpage < 0){
+							jiapage = 0;
+							nowpage = 0;
+						}
+						$(".container").stop().animate({"top":nowpage * -100 + "%"},300);
+						//判断信号量，给对应的那个盒子加上cur
+						$(".container .page").eq(nowpage).addClass("cur").siblings().removeClass("cur");
+					}
+				);
+			}
+		);
+	</script>
+</body>
+</html>

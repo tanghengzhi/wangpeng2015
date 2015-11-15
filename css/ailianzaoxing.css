@@ -1,0 +1,101 @@
+/* 主体部分  banner图 */
+.main{
+	width:100%;
+	font-size: 0;
+	/* height: 600px; */
+	overflow: hidden;	
+	position: relative;
+	max-height: 600px;
+}
+.main img{
+	width: 100%;
+	display: block;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-0-background-size: cover;
+	background-size: cover;
+}
+/* 房多多海面亲子游 */
+.intorcont{
+	height:200px;
+	background-color: #e9fcff; 
+	position: relative;
+	padding-left: 50px;
+}
+.intorcont  h3{
+	font-size:2em;
+	line-height: 200%;
+	padding-top: 15px;
+	color:#8b8e8f;
+}
+.intorcont p{
+	width: 80%;
+	text-align: left;
+	line-height:200%;
+	padding-top:15px;
+	color:#b8b8b8;
+	text-indent: 2em;
+}
+.intorcont span{
+	font-size:1.2em;
+	line-height: 140%;
+}
+.zoom{
+	display: block;
+	width: 128px;
+	height: 124px;
+	position: absolute;
+	right:10px;
+	bottom: 3%;
+	background:url(../images/wordbanner/zoom1.png) no-repeat center center;
+}
+/* 切换 */
+.lvdiitems{
+	position: relative;
+	overflow: hidden;
+}
+.lvdiitems h3{
+	font-size: 2em;
+	line-height: 200%;
+	text-align: center;
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+	color:#4f4f4f;
+}
+.lvdiitems .showtu li{
+	display: none;
+	overflow: hidden;
+}
+.lvdiitems .showtu li.show{
+	display: block;
+}
+.lvdiitems .showtu li img{
+	width: 100%;
+}
+.showhot{
+	width: 200px;
+	overflow: hidden;
+	margin:0 auto;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.showhot li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin-right: 10px;
+	padding: 0 4px;
+	cursor: pointer;
+}
+.showhot li:nth-of-type(1){
+	background: #FFBB00;
+}
+div.footer{
+	background-color: #1387B8;
+	margin-top: 80px;
+}

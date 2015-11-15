@@ -1,0 +1,73 @@
+/* 主体部分  banner图 */
+.main{
+	width:100%;
+	font-size: 0;
+	/* height: 600px; */
+	overflow: hidden;	
+	position: relative;
+	max-height: 600px;
+}
+.main img{
+	width: 100%;
+	display: block;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-0-background-size: cover;
+	background-size: cover;
+}
+/* 房多多海面亲子游 */
+.intorcont{
+	height:200px;
+	background-color: #e9fcff; 
+	position: relative;
+	padding-left: 50px;
+}
+.intorcont  h3{
+	font-size:2.4em;
+	line-height: 200%;
+}
+.intorcont p{
+	width: 80%;
+	text-align: left;
+	line-height:200%;
+	padding-top:15px;
+}
+.intorcont span{
+	font-size:1.2em;
+	line-height: 140%;
+}
+.zoom{
+	display: block;
+	width: 128px;
+	height: 124px;
+	position: absolute;
+	right:10px;
+	bottom: 3%;
+	background:url(../images/wordbanner/zoom1.png) no-repeat center center;
+}
+.lvdikaixuang{
+	text-align: center;
+	padding: 20px 0;
+}
+.lvdikaixuang h2{
+	font-size: 2.2em;
+}
+.lvdikaixuang  p{
+	font-size: 1.2em;
+}
+.lvdiitems{
+	font-size: 0px;
+	padding-top:20px;
+	background-color: #F2F2F2;
+}
+.lvdiitems ul li{
+	margin:20px 0;
+}
+.lvdiitems ul img{
+	display: block;
+	width: 100%;
+}
+div.footer{
+	background-color: #1387B8;
+}
