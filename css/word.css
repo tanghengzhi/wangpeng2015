@@ -332,3 +332,7 @@ span.more{
 	-o-transform:rotateY(360deg);
 	transform:rotateY(360deg);
 }
+
+#my_app_works, #my_banner_works, #my_website_works, #my_graphic_works {
+	cursor: pointer;
+}
