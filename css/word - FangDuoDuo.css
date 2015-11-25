@@ -32,9 +32,11 @@
 	width: 80%;
 	text-align: left;
 	text-indent:2em;
+	color: #b8b8b8;
 	line-height:200%;
 	padding-top:15px;
 	padding-left: 50px;
+}
 }
 .intorcont span{
 	font-size:1.2em;
